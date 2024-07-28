@@ -44,7 +44,7 @@ h1 {
     padding: 10px;
     border-radius: 4px;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     font-size: 16px;
 }
 .form-group button:hover {
@@ -68,5 +68,27 @@ div > label{
 }
 .register_button{
     padding-top: 2rem;
+    font-weight: bolder;
+}
+.font_color{
+    color: #ef5f12;
+}
 
+.container > div h1::after{
+    content: "";
+    display: block;
+    padding: 0.2rem;
+    border-radius: 5px;
+    background: #6f6c6b;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.home_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
